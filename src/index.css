@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #020617; /* Deep Navy Blue */
+  --color-brand-accent: #FFD700; /* Vibrant Gold */
+  --color-gold-muted: #B8860B;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-white font-sans antialiased selection:bg-brand-accent selection:text-black;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-[#FFD700] via-[#FDB931] to-[#917402];
+}
+
+.gold-gradient {
+  @apply bg-gradient-to-br from-[#FFD700] via-[#FDB931] to-[#917402];
+}
+
+.gold-glow {
+  @apply shadow-[0_0_20px_rgba(255,215,0,0.2)];
+}
