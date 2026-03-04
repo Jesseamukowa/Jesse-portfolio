@@ -8,7 +8,7 @@ export async function chatWithPortfolio(message, history) {
   }
 
   const { GoogleGenAI } = await import('@google/genai');
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || 'AIzaSyB4SHnMr-u4gBz_I-4Tq5wWVuAJf7p0UxA' });
 
   const model = 'gemini-3-flash-preview';
 

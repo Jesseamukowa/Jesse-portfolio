@@ -361,13 +361,13 @@ const Hero = () => {
             <div className="relative z-10 w-[80%] mx-auto aspect-[4/5] rounded-[32px] overflow-hidden border border-white/10 gold-glow group">
               <img 
                 src="https://picsum.photos/seed/professional/800/1000" 
-                alt="Alex Rivera" 
+                alt="Jesse Amukowa" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                 <div className="text-white">
-                  <div className="text-brand-accent font-black text-xs tracking-widest uppercase mb-1">Alex Rivera</div>
+                  <div className="text-brand-accent font-black text-xs tracking-widest uppercase mb-1">Jesse Amukowa</div>
                   <div className="text-sm font-light opacity-60">Tech Specialist & Designer</div>
                 </div>
               </div>
@@ -436,21 +436,21 @@ const ProjectCard = ({ title, description, tags, image, index }) => {
 const Projects = () => {
   const projects = [
     {
-      title: "Lumina Analytics",
-      description: "A real-time data visualization dashboard for SaaS metrics featuring interactive D3.js charts and predictive modeling.",
-      tags: ["React", "D3.js", "Node.js", "Tailwind"],
+      title: "HAVEN APP - Mental Health Platform",
+      description: "A comprehensive mental health platform offering self-assessment tools, personalized resources, and a supportive community to promote well-being and resilience.",
+      tags: ["Flutter", "Dart", "Firebase", "Gemini API"],
       image: "https://picsum.photos/seed/analytics/800/500"
     },
     {
-      title: "Nexus Chat",
-      description: "Collaborative workspace with AI-powered task management, real-time messaging, and file sharing capabilities.",
-      tags: ["TypeScript", "WebSockets", "Gemini API", "PostgreSQL"],
+      title: "JK BRAND -Company website",
+      description: "A sleek and modern company website showcasing our portfolio, services, and team, designed to attract high-end clients and establish a strong online presence.",
+      tags: ["JavaScript", "React", "Gemini API", "PostgreSQL"],
       image: "https://picsum.photos/seed/workspace/800/500"
     },
     {
-      title: "Aura Meditation",
-      description: "Minimalist meditation app with atmospheric soundscapes, progress tracking, and personalized session recommendations.",
-      tags: ["React Native", "Firebase", "Audio API", "Framer Motion"],
+      title: "TRACKIT Personal Finance Manager",
+      description: "A minimalist personal finance manager with intuitive budget tracking, expense categorization, and financial insights.",
+      tags: ["JAVA", "SQLite", "Gemini API", "Framer Motion"],
       image: "https://picsum.photos/seed/meditation/800/500"
     }
   ];
@@ -548,22 +548,22 @@ const Skills = () => {
 const Experience = () => {
   const roles = [
     {
-      company: "TechFlow",
-      role: "Senior Full-stack Engineer",
-      period: "2022 — Present",
-      description: "Leading the development of core product features, optimizing performance, and mentoring junior developers."
+      company: "MUNCHIFY",
+      role: "Administator/ Head of IT",
+      period: "2026 — Present",
+      description: "To oversee all information technology functions within the organization. This includes managing IT staff, overseeing departmental budgets, ensuring network security, and implementing new software or hardware systems to improve operational efficiency"
     },
     {
-      company: "Innovate Labs",
-      role: "UI/UX Developer",
-      period: "2020 — 2022",
-      description: "Focused on building highly interactive user interfaces and implementing design systems across multiple products."
+      company: "JK BRAND",
+      role: "UI/UX Developer/ Graphic Designer",
+      period: "2025 — 2026",
+      description: "Designed and developed user interfaces for web and mobile applications, focusing on usability and visual appeal."
     },
     {
-      company: "Creative Pulse",
-      role: "Frontend Developer",
-      period: "2018 — 2020",
-      description: "Developed responsive web applications for various clients, specializing in React and modern CSS."
+      company: "RAMUO GENERAL SHOP AND ENTERPRISE",
+      role: "IT support/ Customer Care",
+      period: "2023— 2024",
+      description: "Dedicated technical professional providing seamless hardware and software troubleshooting alongside high-quality user assistance to ensure business continuity. I specialize in translating complex technical issues into clear, actionable solutions for diverse stakeholders while maintaining a 98% resolution rate for system and network-related inquiries"
     }
   ];
 
@@ -603,40 +603,40 @@ const Achievements = () => {
 
   const achievements = [
     {
-      title: "Global Cyber Security Hackathon",
-      organization: "DefCon Global",
-      date: "2024",
+      title: "Google Developers Group Mini Hackathon",
+      organization: "Google On-campus Maseno University",
+      date: "2025",
       type: "1st Place Winner",
       icon: <Trophy size={24} />,
       image: "https://picsum.photos/seed/award1/1200/800",
-      description: "Awarded for developing an innovative real-time threat detection system using neural networks."
+      description: "Awarded for developing a mental health mobile application created to help students overcome depression, Stress and anxiety. ."
     },
     {
-      title: "Advanced Machine Learning Specialization",
-      organization: "DeepLearning.AI",
-      date: "2023",
+      title: "Mobile Application Developer",
+      organization: "Power Learn Project - Kenya",
+      date: "2025",
       type: "Professional Certificate",
       icon: <Award size={24} />,
-      image: "https://picsum.photos/seed/cert1/1200/800",
-      description: "Comprehensive certification covering deep learning, neural networks, and sequence models."
+      image: "https://academy.powerlearnprojectafrica.org/certificates?scholarship=f9de9825-0ad8-41a7-9d5e-62da5bd19f48",
+      description: "Comprehensive certification covering Mobile Application Development and PWA's With Dart and flutter"
     },
     {
-      title: "Elite Frontend Architect Award",
-      organization: "Tech Excellence Forum",
-      date: "2023",
-      type: "Honorable Mention",
-      icon: <Trophy size={24} />,
+      title: "Cisco Certified Python Engineer",
+      organization: "Cisco Network Academy",
+      date: "2024",
+      type: "Proffesional Certificate",
+      icon: <Award size={24} />,
       image: "https://picsum.photos/seed/award2/1200/800",
-      description: "Recognized for outstanding contribution to modern web architecture and design systems."
+      description: "Awarded for completing Pythin Essentials 1 and 2 on the Cisco academy platform"
     },
     {
-      title: "AWS Certified Solutions Architect",
-      organization: "Amazon Web Services",
-      date: "2022",
+      title: "CCNA 1/2",
+      organization: "Cisco Networking Academy",
+      date: "2024",
       type: "Certification",
       icon: <Award size={24} />,
       image: "https://picsum.photos/seed/cert2/1200/800",
-      description: "Professional certification validating expertise in designing distributed systems on AWS."
+      description: "Professional certification validating expertise in Networking ."
     }
   ];
 
@@ -799,7 +799,7 @@ const Contact = () => {
     { 
       name: "WhatsApp", 
       icon: <MessageCircle size={24} />, 
-      link: "https://wa.me/1234567890", 
+      link: "https://wa.me/0795745018", 
       label: "Chat on WhatsApp",
       color: "hover:bg-green-500 hover:text-white"
     },
@@ -813,7 +813,7 @@ const Contact = () => {
     { 
       name: "GitHub", 
       icon: <Github size={24} />, 
-      link: "https://github.com/alexrivera", 
+      link: "https://github.com/Jesseamukowa", 
       label: "Code Repositories",
       color: "hover:bg-gray-800 hover:text-white"
     },
@@ -835,7 +835,7 @@ const Contact = () => {
               LET'S BUILD <br /> THE <span className="text-white">FUTURE</span>
             </h2>
             <p className="text-xl md:text-2xl font-bold opacity-90 uppercase tracking-widest">
-              Currently available for elite collaborations.
+              Currently available for Hiring and Collaboration.
             </p>
           </div>
 
@@ -916,7 +916,7 @@ const ChatAssistant = () => {
                   <Zap size={16} />
                 </div>
                 <div>
-                  <div className="text-xs md:text-sm font-black tracking-widest uppercase">Portfolio AI</div>
+                  <div className="text-xs md:text-sm font-black tracking-widest uppercase">Jesse Portfolio AI</div>
                   <div className="text-[9px] md:text-[10px] text-brand-accent font-bold uppercase tracking-widest">Online</div>
                 </div>
               </div>
