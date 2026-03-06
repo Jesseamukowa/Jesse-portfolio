@@ -70,7 +70,7 @@ const CodeBackground = () => {
       'docker-compose up -d',
       'npm install success',
       'sudo apt-get upgrade talent',
-      'export default AlexRivera;',
+      'export default JesseAmukowa;',
       'interface Professional { skills: string[]; }'
     ];
 
@@ -422,7 +422,7 @@ const ProjectCard = ({ title, description, tags, image, index }) => {
         <p className="text-white/60 text-sm leading-relaxed mb-6">{description}</p>
         <div className="flex items-center gap-4">
           <button className="text-xs font-bold flex items-center gap-1 hover:text-brand-accent transition-colors">
-            LIVE DEMO <ExternalLink size={14} />
+            LIVE DEMO <ExternalLink size={14} /> 
           </button>
           <button className="text-xs font-bold flex items-center gap-1 hover:text-brand-accent transition-colors">
             GITHUB <Github size={14} />
