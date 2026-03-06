@@ -437,21 +437,21 @@ const Projects = () => {
   const projects = [
     {
       title: "HAVEN APP - Mental Health Platform",
-      description: "A comprehensive mental health platform offering self-assessment tools, personalized resources, and a supportive community to promote well-being and resilience.",
-      tags: ["Flutter", "Dart", "Firebase", "Gemini API"],
-      image: "https://picsum.photos/seed/analytics/800/500"
+      description: "A comprehensive mental health platform offering self-assessment tools, personalized resources, and a supportive community to promote well-being and resilience in Kenyan Schools where Mental Health has been a real problem",
+      tags: ["Flutter", "Dart", "Firebase", "FastAPI","Gemini API"],
+      image: "src/assets/haven.jpg"
     },
     {
       title: "JK BRAND -Company website",
       description: "A sleek and modern company website showcasing our portfolio, services, and team, designed to attract high-end clients and establish a strong online presence.",
       tags: ["JavaScript", "React", "Gemini API", "PostgreSQL"],
-      image: "https://picsum.photos/seed/workspace/800/500"
+      image: "src/assets/jk.jpg"
     },
     {
       title: "TRACKIT Personal Finance Manager",
       description: "A minimalist personal finance manager with intuitive budget tracking, expense categorization, and financial insights.",
       tags: ["JAVA", "SQLite", "Gemini API", "Framer Motion"],
-      image: "https://picsum.photos/seed/meditation/800/500"
+      image: "src/assets/Trackit.jpg"
     }
   ];
 
