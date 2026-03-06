@@ -191,17 +191,17 @@ const Navbar = () => {
   return (
     <>
       <nav className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4",
+        "fixed top-0 left-2 right-0 z-50 transition-all duration-300 px-6 py-4",
         isScrolled ? "bg-brand-bg/80 backdrop-blur-md border-b border-white/5 py-3" : "bg-transparent"
       )}>
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-left justify-between">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             className="text-xl font-black tracking-tighter flex items-center gap-2"
           >
             <div className="w-8 h-8 gold-gradient rounded-lg flex items-center justify-center text-black">
-              <Code2 size={18} />
+              J.A
             </div>
             <span className="text-gradient">JESSE AMUKOWA</span>
           </motion.div>
@@ -325,7 +325,7 @@ const Hero = () => {
               <div className="flex flex-wrap gap-x-6 md:gap-x-8 gap-y-4">
                 <div>
                   <div className="text-[10px] font-black tracking-[0.3em] text-brand-accent uppercase mb-1">Age</div>
-                  <div className="text-lg md:text-xl font-bold text-white">20 YEARS</div>
+                  <div className="text-lg md:text-xl font-bold text-white">21 YEARS</div>
                 </div>
                 <div>
                   <div className="text-[10px] font-black tracking-[0.3em] text-brand-accent uppercase mb-1">Specialization</div>
@@ -358,11 +358,11 @@ const Hero = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             className="relative hidden lg:block"
           >
-            <div className="relative z-10 w-[80%] mx-auto aspect-[4/5] rounded-[32px] overflow-hidden border border-white/10 gold-glow group">
+            <div className="relative z-12 w-[65%] mx-auto aspect-[3.3/5.3] rounded-[30px] overflow-hidden border border-white/10 gold-glow group">
               <img 
-                src="https://picsum.photos/seed/professional/800/1000" 
+                src="src/assets/jessepic.png" 
                 alt="Jesse Amukowa" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-fit hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
@@ -461,7 +461,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div>
             <span className="text-brand-accent font-mono text-sm mb-4 block tracking-widest">01 / PROJECTS</span>
-            <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">SELECTED <br /> <span className="text-gradient">WORKS</span></h2>
+            <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">SELECTED  <span className="text-gradient">WORKS</span></h2>
           </div>
           <p className="max-w-md text-white/50 text-lg leading-relaxed font-light">
             A curated selection of high-end digital products engineered for excellence.
@@ -512,7 +512,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <span className="text-brand-accent font-mono text-sm mb-4 block tracking-widest">02 / EXPERTISE</span>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">TECHNICAL <br /> <span className="text-gradient">STACK</span></h2>
+          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">TECHNICAL <span className="text-gradient">STACK</span></h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -572,7 +572,7 @@ const Experience = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <span className="text-brand-accent font-mono text-sm mb-4 block tracking-widest">04 / JOURNEY</span>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">PROFESSIONAL <br /> <span className="text-gradient">TIMELINE</span></h2>
+          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">PROFESSIONAL <span className="text-gradient">TIMELINE</span></h2>
         </div>
 
         <div className="space-y-12">
@@ -608,7 +608,7 @@ const Achievements = () => {
       date: "2025",
       type: "1st Place Winner",
       icon: <Trophy size={24} />,
-      image: "https://picsum.photos/seed/award1/1200/800",
+      image: "src/assets/images.png",
       description: "Awarded for developing a mental health mobile application created to help students overcome depression, Stress and anxiety. ."
     },
     {
@@ -617,7 +617,7 @@ const Achievements = () => {
       date: "2025",
       type: "Professional Certificate",
       icon: <Award size={24} />,
-      image: "https://academy.powerlearnprojectafrica.org/certificates?scholarship=f9de9825-0ad8-41a7-9d5e-62da5bd19f48",
+      image: "src/assets/jesse Mobile Friendy PWAs with Dart and Flutter certificate.png",
       description: "Comprehensive certification covering Mobile Application Development and PWA's With Dart and flutter"
     },
     {
@@ -645,7 +645,7 @@ const Achievements = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <span className="text-brand-accent font-mono text-sm mb-4 block tracking-widest">03 / ACCOMPLISHMENTS</span>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase">JESSE <br /> <span className="text-gradient">ACHIEVEMENTS</span></h2>
+          <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase"> <span className="text-gradient">ACHIEVEMENTS</span></h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
