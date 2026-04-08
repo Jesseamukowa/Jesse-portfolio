@@ -362,7 +362,7 @@ const Hero = () => {
               <img 
                 src="/assets/jessepic.png" 
                 alt="Jesse Amukowa" 
-                className="w-full h-full object-fit hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
