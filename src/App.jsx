@@ -360,7 +360,7 @@ const Hero = () => {
           >
             <div className="relative z-12 w-[65%] mx-auto aspect-[3.3/5.3] rounded-[30px] overflow-hidden border border-white/10 gold-glow group">
               <img 
-                src="/public/assets/jessepic.png" 
+                src="/assets/jessepic.png" 
                 alt="Jesse Amukowa" 
                 className="w-full h-full object-fit hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
