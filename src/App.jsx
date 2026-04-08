@@ -360,7 +360,7 @@ const Hero = () => {
           >
             <div className="relative z-12 w-[65%] mx-auto aspect-[3.3/5.3] rounded-[30px] overflow-hidden border border-white/10 gold-glow group">
               <img 
-                src="src/assets/jessepic.png" 
+                src="/src/assets/jessepic.png" 
                 alt="Jesse Amukowa" 
                 className="w-full h-full object-fit hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
@@ -439,19 +439,19 @@ const Projects = () => {
       title: "HAVEN APP - Mental Health Platform",
       description: "A comprehensive mental health platform offering self-assessment tools, personalized resources, and a supportive community to promote well-being and resilience in Kenyan Schools where Mental Health has been a real problem",
       tags: ["Flutter", "Dart", "Firebase", "FastAPI","Gemini API"],
-      image: "src/assets/haven.jpg"
+      image: "/src/assets/haven.jpg"
     },
     {
       title: "JK BRAND -Company website",
       description: "A sleek and modern company website showcasing our portfolio, services, and team, designed to attract high-end clients and establish a strong online presence.",
       tags: ["JavaScript", "React", "Gemini API", "PostgreSQL"],
-      image: "src/assets/jk.jpg"
+      image: "/src/assets/jk.jpg"
     },
     {
       title: "TRACKIT Personal Finance Manager",
       description: "A minimalist personal finance manager with intuitive budget tracking, expense categorization, and financial insights.",
       tags: ["JAVA", "SQLite", "Gemini API", "Framer Motion"],
-      image: "src/assets/Trackit.jpg"
+      image: "/src/assets/Trackit.jpg"
     }
   ];
 
@@ -608,7 +608,7 @@ const Achievements = () => {
       date: "2025",
       type: "1st Place Winner",
       icon: <Trophy size={24} />,
-      image: "src/assets/images.png",
+      image: "/src/assets/images.png",
       description: "Awarded for developing a mental health mobile application created to help students overcome depression, Stress and anxiety. ."
     },
     {
@@ -617,7 +617,7 @@ const Achievements = () => {
       date: "2025",
       type: "Professional Certificate",
       icon: <Award size={24} />,
-      image: "src/assets/jesse Mobile Friendy PWAs with Dart and Flutter certificate.png",
+      image: "/src/assets/jesse Mobile Friendy PWAs with Dart and Flutter certificate.png",
       description: "Comprehensive certification covering Mobile Application Development and PWA's With Dart and flutter"
     },
     {
